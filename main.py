@@ -5,7 +5,10 @@ from stats import sort
 from stats import helper
 import sys
 def main():
-    path = "books/frankenstein.txt"
+    if len(sys.argv) != 2:
+        print("Usage: python3 main.py <path_to_book>")
+        print(sys.exit(1))
+    path = sys.argv[1]
     text = get_books_text(path)
     count = num_of_words(text)
     dic = count_chars(text)
