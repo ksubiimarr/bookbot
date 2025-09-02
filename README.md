@@ -1,4 +1,4 @@
 # bookbot
 
 
-BookBot is my first [Boot.dev](https://www.boot.dev) project!# bookbot
+first project... place a .txt of a book or anything and itll return word count and most used alpha type letters.
